@@ -97,7 +97,7 @@ source .venv/bin/activate
 pip install poetry
 
 # Install Dependencies using Poetry
-poetry install
+poetry install --no-root
 
 # Run App
 uvicorn src.main:app --host 127.0.0.1 --port 8000 --reload
