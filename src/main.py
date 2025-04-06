@@ -3,7 +3,11 @@ import uuid
 import httpx                           
 import asyncio                         
 
-app = FastAPI()
+app = FastAPI(
+    title="DockFastID API",
+    description="A Dockerized FastAPI server for generating UUIDs and serving random cat images.",
+    version="1.0.0"
+)
 
 @app.get(
     "/uuid",
