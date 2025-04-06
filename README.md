@@ -42,7 +42,7 @@ A Dockerized FastAPI application that provides APIs to generate UUIDs and fetch 
 
 ## ⚙️ Setup Instructions:
 
-### 🔧 1. Clone the repository:
+### 1. Clone the repository:
 
 ```bash
 git clone https://github.com/Djain318/darshan-jain-manufac-fast-api.git
@@ -51,9 +51,9 @@ cd darshan-jain-manufac-fast-api
 
 ---
 
-### 🐳 2. Dockerize the application:
+### 2. Dockerize the application:
 
-#### 🏗️ 2.1 Build the Docker image and Run the Container
+#### 2.1 Build the Docker image and Run the Container
 
 ```bash
 # Build Image
