@@ -53,7 +53,7 @@ cd darshan-jain-manufac-fast-api
 
 ### 2. Dockerize the application:
 
-#### 2.1 Build the Docker image and Run the Container
+• Build the Docker image and Run the Container
 
 ```bash
 # Build Image
@@ -63,7 +63,7 @@ docker build -t manufac-project-image .
 docker run -d --name My_APP -p 8000:8000 manufac-project-image
 ```
 
-Or you can directly use the published docker image from ```Docker Hub``` and Run Container🐋
+• Or you can directly use the published docker image from ```Docker Hub``` and Run Container🐋
 ```bash
 # Pull Image
 docker pull thrillseekr/manufac-project-image:v0.1.0
@@ -88,8 +88,8 @@ Your FastAPI app will be available at:
 
 You can also explore and test the API using FastAPI’s interactive documentation:
 
-- **Swagger UI**: [http://localhost:8000/docs](http://localhost:8000/docs)
-- **ReDoc**: [http://localhost:8000/redoc](http://localhost:8000/redoc)
+• **Swagger UI**: [http://localhost:8000/docs](http://localhost:8000/docs)
+• **ReDoc**: [http://localhost:8000/redoc](http://localhost:8000/redoc)
 
 ---
 
