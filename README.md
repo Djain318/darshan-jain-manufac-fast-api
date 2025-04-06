@@ -49,8 +49,6 @@ git clone https://github.com/Djain318/darshan-jain-manufac-fast-api.git
 cd darshan-jain-manufac-fast-api
 ```
 
----
-
 ### 2. Dockerize the application:
 
 • Build the Docker image and Run the Container
@@ -82,9 +80,7 @@ Your FastAPI app will be available at:
 - [http://localhost:8000/async-uuid](http://localhost:8000/async-uuid)
 - [http://localhost:8000/cat](http://localhost:8000/cat)
 
----
-
-## 📘 3. Swagger UI
+### 📘 3. Swagger UI
 
 You can also explore and test the API using FastAPI’s interactive documentation:
 
@@ -93,7 +89,7 @@ You can also explore and test the API using FastAPI’s interactive documentatio
 
 ---
 
-## ⚡ 4. Run without Docker
+### ⚡ Run without Docker
 
 If you prefer not to use Docker, you can run the FastAPI app locally:
 
