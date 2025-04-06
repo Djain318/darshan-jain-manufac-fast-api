@@ -103,8 +103,8 @@ uvicorn src.main:app --host 127.0.0.1 --port 8000 --reload
 
 Your FastAPI app will be available at [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
-- **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
-- **ReDoc**: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc).
+- Swagger UI: http://127.0.0.1:8000/docs
+- ReDoc: http://127.0.0.1:8000/redoc
 ```
 ---
 
