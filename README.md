@@ -64,8 +64,22 @@ Once the image is built, run the container with:
 ```bash
 docker run -d --name My_APP -p 8000:8000 manufac-fastapi
 ```
+Your FastAPI app will be available at [http://localhost:8000](http://localhost:8000) and [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
-## 3.Run without Docker
+👉 Example: [http://localhost:8000/uuid](http://localhost:8000/uuid) or [http://127.0.0.1:8000/uuid](http://127.0.0.1:8000/uuid)
+
+👉 Example: [http://localhost:8000/async-uuid](http://localhost:8000/async-uuid) or [http://127.0.0.1:8000/async-uuid](http://127.0.0.1:8000/async-uuid)
+
+👉 Example: [http://localhost:8000/cat](http://localhost:8000/cat) or [http://127.0.0.1:8000/cat](http://127.0.0.1:8000/cat)
+
+## 3.Swagger UI
+You can also explore and test the API using FastAPI’s interactive documentation:
+
+- **Swagger UI**: [http://localhost:8000/docs](http://localhost:8000/docs) or [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
+- **ReDoc**: [http://localhost:8000/redoc](http://localhost:8000/redoc) or [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc).
+
+
+## 4.Run without Docker
 
 If you prefer not to use Docker, you can run the FastAPI app locally.
 ```bash
@@ -86,22 +100,12 @@ pip install poetry
 poetry install
 
 uvicorn src.main:app --host 127.0.0.1 --port 8000 --reload
+
+Your FastAPI app will be available at [http://127.0.0.1:8000](http://127.0.0.1:8000).
+
+- **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs).
+- **ReDoc**: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc).
 ```
-
-Your FastAPI app will be available at [http://localhost:8000](http://localhost:8000) and [http://127.0.0.1:8000](http://127.0.0.1:8000).
-
-👉 Example: [http://localhost:8000/uuid](http://localhost:8000/uuid) or [http://127.0.0.1:8000/uuid](http://127.0.0.1:8000/uuid)
-
-👉 Example: [http://localhost:8000/async-uuid](http://localhost:8000/async-uuid) or [http://127.0.0.1:8000/async-uuid](http://127.0.0.1:8000/async-uuid)
-
-👉 Example: [http://localhost:8000/cat](http://localhost:8000/cat) or [http://127.0.0.1:8000/cat](http://127.0.0.1:8000/cat)
-
-## Swagger UI
-You can also explore and test the API using FastAPI’s interactive documentation:
-
-- **Swagger UI**: [http://localhost:8000/docs](http://localhost:8000/docs)
-- **ReDoc**: [http://localhost:8000/redoc](http://localhost:8000/redoc)
-
 ---
 
 ## License:
