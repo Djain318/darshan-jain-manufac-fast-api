@@ -63,7 +63,7 @@ docker build -t manufac-fastapi .
 docker run -d --name My_APP -p 8000:8000 manufac-fastapi
 ```
 
-Or you can directly use the published docker image from Docker Hub
+🐋 Or you can directly use the published docker image from Docker Hub
 ```bash
 docker pull thrillseekr/manufac-project-image:v0.1.0
 ```
