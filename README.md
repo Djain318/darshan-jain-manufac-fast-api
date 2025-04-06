@@ -72,11 +72,11 @@ If you prefer not to use Docker, you can run the FastAPI app locally.
 # Create a Virtual Environment
 python -m venv .venv
 
-- Activate the virtual environment:
--- On Windows:
+# Activate the virtual environment:
+ On Windows:
 .venv\Scripts\activate
 
--- On macOS/Linux:
+ On macOS/Linux:
 source .venv/bin/activate
 
 # Install Poetry
