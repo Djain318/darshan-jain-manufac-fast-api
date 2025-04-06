@@ -20,7 +20,7 @@ A Dockerized FastAPI application that provides APIs to generate UUIDs and fetch 
   </a>
 </p>
 
-🎉Project Deployment Link: [https://darshan-jain-manufac-fast-api.onrender.com](https://darshan-jain-manufac-fast-api.onrender.com)🎉
+🎉Project Deployment Link: [https://darshan-jain-manufac-fast-api.onrender.com/docs](https://darshan-jain-manufac-fast-api.onrender.com/docs)🎉
 
 ---
 
