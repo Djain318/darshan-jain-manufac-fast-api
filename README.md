@@ -2,6 +2,8 @@
 
 A Dockerized FastAPI application that provides APIs to generate UUIDs and fetch random cat images. The app includes both synchronous and asynchronous endpoints for generating UUIDs, with a 3-second delay in the asynchronous version. It also fetches random cat images from an external API and returns them as JPEG images.
 
+🎉Project Deployment ```Link: https://darshan-jain-manufac-fast-api.onrender.com```🎉
+
 <p align="center">
   <a href="https://fastapi.tiangolo.com/">
     <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
