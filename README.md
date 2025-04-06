@@ -45,6 +45,20 @@ git clone https://github.com/Djain318/darshan-jain-manufac-fast-api.git
 cd darshan-jain-manufac-fast-api
 ```
 
+## Create a Virtual Environment
+
+```bash
+# Create virtual environment (e.g., in `.venv` folder)
+python -m venv .venv
+
+# Activate the virtual environment:
+# On Windows:
+.venv\Scripts\activate
+
+# On macOS/Linux:
+source .venv/bin/activate
+```
+
 ## 2. Dockerize the application:
 
 To build and run the application in Docker, follow these steps:
@@ -69,6 +83,9 @@ docker run -d --name My_APP -p 8000:8000 manufac-fastapi
 
 If you prefer not to use Docker, you can run the FastAPI app locally using ```Uvicorn```.
 ```bash
+# Install Dependencies using Poetry
+poetry install
+
 uvicorn src.main:app --host 127.0.0.1 --port 8000 --reload
 ```
 
