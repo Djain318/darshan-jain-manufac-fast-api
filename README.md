@@ -54,7 +54,7 @@ cd darshan-jain-manufac-fast-api
 #### 🏗️ 2.1 Build the Docker image:
 
 ```bash
-docker build -t manufac-fastapi .
+docker build -t manufac-project-image .
 ```
 
 Or you can directly use the published docker image from Docker Hub 🐋
@@ -65,7 +65,7 @@ docker pull thrillseekr/manufac-project-image:v0.1.0
 #### 🚢 2.2 Run the Docker container:
 
 ```bash
-docker run -d --name My_APP -p 8000:8000 manufac-fastapi
+docker run -d --name My_APP -p 8000:8000 manufac-project-image
 ```
 
 Your FastAPI app will be available at:
