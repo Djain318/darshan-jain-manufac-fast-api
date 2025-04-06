@@ -45,11 +45,11 @@ git clone https://github.com/Djain318/darshan-jain-manufac-fast-api.git
 cd darshan-jain-manufac-fast-api
 ```
 
-### 2. Dockerize the application:
+## 2. Dockerize the application:
 
 To build and run the application in Docker, follow these steps:
 
-#### 2.1 Build the Docker image:
+### 2.1 Build the Docker image:
 
 From the project directory, build the Docker image using the following command:
 
@@ -57,12 +57,19 @@ From the project directory, build the Docker image using the following command:
 docker build -t manufac-fastapi .
 ```
 
-#### 2.2 Run the Docker container:
+### 2.2 Run the Docker container:
 
 Once the image is built, run the container with:
 
 ```bash
 docker run -d --name My_APP -p 8000:8000 manufac-fastapi
+```
+
+## 3.Run without Docker (using Uvicorn):
+
+If you prefer not to use Docker, you can run the FastAPI app locally using ```Uvicorn```.
+```bash
+uvicorn src.main:app --host 127.0.0.1 --port 8000 --reload
 ```
 
 Your FastAPI app will be available at [http://localhost:8000](http://localhost:8000) and [http://127.0.0.1:8000](http://127.0.0.1:8000).
